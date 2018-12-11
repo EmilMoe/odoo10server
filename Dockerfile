@@ -68,7 +68,7 @@ EXPOSE 8069 8071
 ENV ODOO_RC /etc/odoo10-server.conf
 USER odoo
 
-ENTRYPOINT /etc/odoo/odoo10-server/odoo-bin
+ENTRYPOINT /var/odoo10/odoo10-server/odoo-bin
 
 #ENTRYPOINT ["/entrypoint.sh"]
 #CMD ["odoo"]
